@@ -1,6 +1,5 @@
 # AntiMuleAI: Next-Generation Financial Crime Prevention
 
-![AntiMuleAI](https://img.shields.io/badge/Status-Hackathon_Ready-success?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
 ![Scikit-Learn](https://img.shields.io/badge/Machine_Learning-Scikit_Learn-orange?style=for-the-badge&logo=scikit-learn)
@@ -46,6 +45,3 @@ AntiMuleAI completely bypasses basic algorithms, utilizing a 3-tier **Voting Cla
 * `train_model.py` - The core ML pipeline that ingests data, builds the ensemble, and exports the predictive model.
 * `models/` - Contains the serialized `muleguard_model.joblib`.
 * `outputs/` - Contains the `risk_scores.csv` predictions.
-
-## 🔒 Security Note
-* Never commit the `.env` file or raw `DataSet.csv` files to public repositories. These are strictly ignored via `.gitignore` to protect sensitive data and API keys.
