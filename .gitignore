@@ -1,0 +1,15 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Virtual Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data and Models
+DataSet.csv
+models/
+outputs/
+AntiMuleAI_Solution_Approach.pptx
